@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akmal Ridzuan - Web Design</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-color: #f7f7f7;
+    }
+
+    
+    header {
+      background-color: #503800;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 15px;
+    }
+
+
+    nav {
+      background-color: #333;
+      text-align: center;
+    }
+
+    nav a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 14px 25px;
+    }
+
+    nav a:hover {
+      background-color: #000000;
+    }
+
+  
+    .container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .profile-pic {
+      width: 200px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #000;
+      margin-bottom: 5px;
+    }
+
+    h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background-color: #000000;
+      margin: 8px auto;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    /* Table */
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 60%;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #000000;
+      color: white;
+      width: 30%;
+    }
+    .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropbtn {
+  background-color: transparent;
+  border: none;
+  color: white; 
+  font-size: 16px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333; 
+  min-width: 150px;
+  z-index: 1;
+}
+
+/* Link dalam dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Hover effect */
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+/* Tunjuk dropdown bila hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Akmal Ridzuan</h1>
+    <p>Student ID: 12IT23F2038 | DFK20013 - Web Design Technology</p>
+    
+  </header>
+
+  <nav>
+  <a href="indexprofile.html">About</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">020925</button>
+    <div class="dropdown-content">
+      <a href="10DIT23F2038_020925(PART1)/Lab1/Index1.html">Index 1</a>
+      <a href="10DIT23F2038_020925(PART1)/Lab1/Index2.html">Index 2</a>
+    </div>
+  </div>
+
+  <a href="10DIT23F2038_020925(PART2)/Lab2/Index1.html">020925(2)</a>
+
+  <a href="10DIT23F2038_260925/ConditionLoops.html">260925</a>
+
+  <a href="10DIT23F2038_031025/Indexx.html">031025</a>
+
+   <div class="dropdown">
+    <button class="dropbtn">101025</button>
+    <div class="dropdown-content">
+      <a href="10DIT23F2038_101025(BS_CAROUSELL)/Bootstrap_Carousel/index.html">Exercise 1</a>
+      <a href="10DIT23F2038_101025(BS_CAROUSELL)/Bootstrap_Carousel/ex1_index.html">Exercise 2</a>
+      <a href="10DIT23F2038_101025(BS_CAROUSELL)/Bootstrap_Carousel/ex2_index.html">Exercise 3</a>
+      <a href="10DIT23F2038_101025(BS_CAROUSELL)/Bootstrap_Carousel/ex3_index.html">Exercise 4</a>
+      <a href="10DIT23F2038_101025(BS_CAROUSELL)/Bootstrap_Carousel/ex4_index.html">Exercise 5</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">281025</button>
+    <div class="dropdown-content">
+      <a href="10DIT23F2038_281025/F2038_JQueryPART1.html">jquery1</a>
+      <a href="10DIT23F2038_281025/F2038_JQueryPart2.html">jquery2</a>
+      <a href="10DIT23F2038_281025/F2038_JQueryPART3.html">jquery3</a>
+      <a href="10DIT23F2038_281025/F2038_JQueryPART4.html">jquery4</a>
+      <a href="10DIT23F2038_281025/F2038_JQueryPART5.html">jquery7</a>
+      <a href="10DIT23F2038_281025/F2038_JQueryPART6.html">jquery6</a>
+    </div>
+  </div>
+  
+</nav>
+
+  <div class="container">
+    <img src="yourphoto.jpg" alt="Akmal Ridzuan" class="profile-pic">
+
+    <h2>About Me</h2>
+    <p>Hello! My name is <b>Akmal Ridzuan</b>. I am currently studying Web Design under DFK20013. 
+       I enjoy learning how to create interactive and user-friendly web pages using HTML, CSS, and JavaScript.</p>
+
+    <table>
+      <tr>
+        <th>Course</th>
+        <td>DFK2031 – Web Design Technology</td>
+      </tr>
+      <tr>
+        <th>Lecturer</th>
+        <td>Ts. Shu haila binti Mohd Yusof</td>
+      </tr>
+      <tr>
+        <th>Semester</th>
+        <td>S1 2025/2026</td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
